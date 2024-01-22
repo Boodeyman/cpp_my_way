@@ -1,0 +1,17 @@
+Index: main.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"Hello, World\";\n    return 0;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.cpp b/main.cpp
+--- a/main.cpp	(revision 98bb056e77fd2fc8350f34bea986209b6af294ed)
++++ b/main.cpp	(date 1705919379861)
+@@ -3,4 +3,4 @@
+ int main() {
+     cout << "Hello, World";
+     return 0;
+-}
++}
+\ No newline at end of file
