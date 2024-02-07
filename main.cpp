@@ -24,21 +24,21 @@
 //}
 
 
-#include <iostream>
-
-using namespace std;
-
-int main() {
-    int cord_x1, cord_y1, cord_x2, cord_y2;
-    cin >> cord_x1;
-    cin >> cord_y1;
-    cin >> cord_x2;
-    cin >> cord_y2;
-    if ((cord_x1 == cord_x2) || (cord_y1 == cord_y2)) {
-        cout << "YES";
-    } else if ((cord_x1 == cord_y1) && (cord_y2 == cord_x2)) {
-        cout << "YES";
-    } else {
-        cout << "NO";
-    }
-}
+//#include <iostream>
+//
+//using namespace std;
+//
+//int main() {
+//    int cord_x1, cord_y1, cord_x2, cord_y2;
+//    cin >> cord_x1;
+//    cin >> cord_y1;
+//    cin >> cord_x2;
+//    cin >> cord_y2;
+//    if ((cord_x1 == cord_x2) || (cord_y1 == cord_y2)) {
+//        cout << "YES";
+//    } else if ((cord_x1 == cord_y1) && (cord_y2 == cord_x2)) {
+//        cout << "YES";
+//    } else {
+//        cout << "NO";
+//    }
+//}
