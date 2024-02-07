@@ -22,7 +22,7 @@
 //    res = n_1 * n_2 + n_3;
 //    cout << n_1 << " * " << n_2 << " + " << n_3 << " = " << res << endl;
 //}
-//
+
 
 #include <iostream>
 
